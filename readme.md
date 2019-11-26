@@ -2,44 +2,29 @@
 
 Educação: 
 
-Por que uma criança/adolecente não estuda -> não aprende
+Por que uma criança/adolecente não estudam -> não aprende
 
  - Existem coisas/algo mais interessante que os estudos. 
- - Qual o princial canal que uma criança/adolecente tem?
+ - Qual o princial meio de comunicação que um(a) criança/adolecente tem?
   #celular
 
+Rede social to developers: Scholl Job
+Ser a maior rede social focada em treinamento de programadores.
 
-
-foco do nosso projeto... rede social free school
-
-
-rede social 
-
-
-Criar uma plataforma com comparace profissões.
-
-Seus ganhos
-
-dando opção do alunos entra no link para tI
-
-apresentar N faces para ele alcançar um deterinado objetivo.
+Diferencial e foco da aplicação:
+ - Game
+ - Apresentar N faces para ele alcançar um deterinado objetivo.
 
 exemplo: programador junior.
 
 ele criando nesse objetivo, ele teria o treinamento passo a passo para
 atingir esse objetivo.
 
-recopensa ao final do treinamento, com base na sua nota.
+recompensa ao final do treinamento, com base na sua nota.
 
-por trás, ter empresas parceiras que
+por trás, ter empresas parceiras.
 
 
-
-Rede Social 
-
-Scholl Job
-
-Ser a maior rede social focada em treinamento de programadores.
 
 O aluno se cadastra na plataforma.
 
