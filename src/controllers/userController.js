@@ -13,11 +13,11 @@ const userController = {
       const { headers } = req
       const { authorization } = headers
   
-      if (authorization !== authorizationKey) {
-        const msg = `You are not authorized to create new users`
-        log('userController', 'info', msg) 
-        return res.status(200).send({message: msg})
-      }
+      // if (authorization !== authorizationKey) {
+      //   const msg = `You are not authorized to create new users`
+      //   log('userController', 'info', msg) 
+      //   return res.status(200).send({message: msg})
+      // }
 
       const { username, email, password, profile, name } = req.body
       
