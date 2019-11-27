@@ -5,7 +5,6 @@ CREATE TABLE IF NOT EXISTS `Users` (
   `email` VARBINARY(45) NOT NULL,
   `name` VARCHAR(45) NOT NULL,
   `password` VARCHAR(100) NOT NULL,
-  `createdAt` BIGINT NOT NULL,
   `profile` INT NOT NULL,
   PRIMARY KEY (`username`))
 ENGINE = InnoDB;
@@ -22,6 +21,8 @@ select
     convert(us.password, char) as password,
     name,
     password,
-    createdAt,
     profile
 from Users us;
+
+
+select now();

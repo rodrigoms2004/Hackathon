@@ -10,11 +10,11 @@ module.exports = {
       "client"    : "mysql",
       "version"   : "5.7",
       "connection": {
-          "host"      : "172.16.187.128",
+          "host"      : "52.6.30.97",
           "user"      : "user",
           "password"  : "pass",
           "database"  : "rocket_hackathon",
-          "port"      : "3306"
+          "port"      : "50055"
       }
     }
   ],
