@@ -36,7 +36,7 @@ export const Button = styled.button`
   height: 47px;
   border-radius: 9px;
   border: none;
-  background: ${props => props.color}
+  background: ${props => props.color};
 
   font-size: 18px;
   transition: background 0.2s;
