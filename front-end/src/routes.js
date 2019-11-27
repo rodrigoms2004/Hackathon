@@ -10,14 +10,12 @@ import Question from './pages/Game/Question';
 
 export default function Routes() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Login} />
-        <Route path="/register" component={Register} />
-        <Route path="/game" component={Game} />
-        <Route path="/tutorial/:id" component={Tutorial} />
-        <Route path="/question/:id" component={Question} />
-      </Switch>
-    </BrowserRouter>
+    <Switch>
+      <Route path="/" exact component={Login} />
+      <Route path="/register" component={Register} />
+      <Route path="/game" component={Game} />
+      <Route path="/tutorial/:id" component={Tutorial} />
+      <Route path="/question/:id" component={Question} />
+    </Switch>
   );
 }
