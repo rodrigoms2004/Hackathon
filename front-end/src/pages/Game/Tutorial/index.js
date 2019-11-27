@@ -2,8 +2,13 @@ import React from 'react';
 import Header from '../../../components/Header';
 
 import { Container } from './styles';
+import history from '../../../services/history';
 
 export default function Tutorial({ content }) {
+  function handleQuestion(){
+    history.push('/question/1')
+  }
+
   return (
     <Container>
       <Header />
@@ -24,7 +29,7 @@ export default function Tutorial({ content }) {
             lacinia viverra. Vestibulum hendrerit cursus consequat. Ut nec eros
             diam.
           </p>
-          <button>Start</button>
+          <button onClick={handleQuestion}>Start</button>
         </div>
       </div>
     </Container>

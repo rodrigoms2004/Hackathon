@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   div {
@@ -22,27 +22,28 @@ export const Container = styled.div`
       align-items: center;
 
       p {
-        height: 150px;
+        height: auto;
         display: block;
         margin: 20px auto;
       }
-
-      button {
-        margin-top: 20px;
-        width: 100%;
-        height: 47px;
-        border-radius: 9px;
-        border: none;
-
-        background: #7456f9;
-        font-size: 18px;
-        transition: background 0.2s;
-        color: #fff;
-
-        :hover {
-          background: #8e79fe;
-        }
-      }
     }
   }
+`;
+
+export const Button = styled.button`
+  margin-top: 20px;
+  width: 100%;
+  height: 47px;
+  border-radius: 9px;
+  border: none;
+  background: ${props => props.color}
+
+  font-size: 18px;
+  transition: background 0.2s;
+  color: #fff;
+
+  :hover {
+    background: #8e79fe;
+  }
+
 `;
