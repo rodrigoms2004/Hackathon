@@ -1,5 +1,5 @@
 module.exports = {
-  apiPort : 3000,
+  apiPort : 3333,
   logdir: 'log',
   secretKey: '9A7FA52CFE3E4896943D83AF7EC11',
   db_id: 0,

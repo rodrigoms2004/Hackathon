@@ -25,3 +25,8 @@ git checkout master
 git merge feature/heatmap_api
 
 git push
+
+
+###############################################
+# Git pull de uma branch não master
+git pull origin backend/mvp
