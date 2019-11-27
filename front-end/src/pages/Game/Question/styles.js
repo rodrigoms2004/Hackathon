@@ -41,9 +41,23 @@ export const Button = styled.button`
   font-size: 18px;
   transition: background 0.2s;
   color: #fff;
+`;
 
-  :hover {
-    background: #8e79fe;
+export const Wrapper = styled.div`
+  button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background: #272d4f;
+    color: #fff;
+    border: 0;
   }
+`;
 
+export const Error = styled.div`
+  padding: 40px 0;
+  border: 1px solid gray;
+
+  p {
+    color: #666;
+  }
 `;
