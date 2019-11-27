@@ -2,13 +2,17 @@ const router = require('express').Router()
 
 const authController = require('../controllers/authController')
 const userController = require('../controllers/userController')
+const gameController = require('../controllers/gameController');
 
 
 const { authenticate } = require('../services/authenticate')
 
 // register and new users
 router.post('/register', userController.register)
-router.post('/login', authController.login)
+router.post('/login', authController.login);
+
+router.get('/game/:id', gameController.getById);
+
 
 
 
